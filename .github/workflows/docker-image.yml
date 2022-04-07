@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
+    - name: Build the Docker image -
       env: 
         DOCKER_USER: ${{secrets.DOCKER_USER}}
       run: docker build . --file MvcWebCore/Dockerfile --tag $DOCKER_USER/mvcwebcore:latest
