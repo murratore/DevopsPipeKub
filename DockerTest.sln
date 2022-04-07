@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTest", "DockerTest\DockerTest.csproj", "{81BEDEB0-EF79-43F1-B8F6-E950B1C6B150}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcWebCore", "MvcWebCore\MvcWebCore.csproj", "{274C8C55-3B39-4A2B-97E0-5963EF208C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProject", "ApiProject\ApiProject.csproj", "{6FC653F6-DDFE-4C24-82EA-994B7BE492AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81BEDEB0-EF79-43F1-B8F6-E950B1C6B150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BEDEB0-EF79-43F1-B8F6-E950B1C6B150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BEDEB0-EF79-43F1-B8F6-E950B1C6B150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BEDEB0-EF79-43F1-B8F6-E950B1C6B150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274C8C55-3B39-4A2B-97E0-5963EF208C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274C8C55-3B39-4A2B-97E0-5963EF208C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274C8C55-3B39-4A2B-97E0-5963EF208C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274C8C55-3B39-4A2B-97E0-5963EF208C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC653F6-DDFE-4C24-82EA-994B7BE492AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC653F6-DDFE-4C24-82EA-994B7BE492AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC653F6-DDFE-4C24-82EA-994B7BE492AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC653F6-DDFE-4C24-82EA-994B7BE492AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5694384-0B27-4ACF-B5E7-77D38453C573}
+	EndGlobalSection
+EndGlobal
