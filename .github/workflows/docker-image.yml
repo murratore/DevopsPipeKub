@@ -24,4 +24,4 @@ jobs:
     - name: Docker Push
       env: 
         DOCKER_USER: ${{secrets.DOCKER_USER}}
-      run: docker push $DOCKER_USER/mvcwebcore:latest
+      run: docker push murratore/mvcwebcore:latest
