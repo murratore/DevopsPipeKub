@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file MvcWebCore/Dockerfile --tag $(date +%s)
+      run: docker build . --file MvcWebCore/Dockerfile --tag latest
     - name: Docker Login
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
@@ -24,4 +24,4 @@ jobs:
     - name: Docker Push
       env: 
         DOCKER_USER: ${{secrets.DOCKER_USER}}
-      run: docker push $DOCKER_USER/mvcwebcore:$(date +%s)
+      run: docker push $DOCKER_USER/mvcwebcore:latest
