@@ -1,0 +1,25 @@
+# .github/workflows/deploy.yml
+name: Deploy
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  deployment:
+    runs-on: 'ubuntu-latest'
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: 'Deploy'
+      uses: 'deliverybot/helm@v1'
+      with:
+        release: 'helmdemo'
+        namespace: 'mmaurer-helm'
+        chart: 'MvcWebCore/chart/'
+        token: '${{ github.token }}'     
+      env:
+        KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
+
+ 
