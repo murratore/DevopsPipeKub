@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: 'Deploy'
+    - name: 'Deploy 1'
       uses: 'deliverybot/helm@v1'
       with:
         release: 'helmdemo'
